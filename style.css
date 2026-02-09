@@ -1,0 +1,174 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #EBF4F6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header {
+     background-color: black;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+/* HEADER */
+.menu{
+    background: #D8E983;
+    padding: 10px;
+    margin: 20px;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 10px;
+
+}
+
+.logo, .inicio, .rutas, .hoteles, .vuelos, .contacto, .facebook, .x {
+    background: #AEB877;
+    color: black;
+    padding: 13px;
+    text-decoration: none;
+    width: 150px;
+}
+
+
+/* .header-logo,
+.header-social {
+    width: 150px;
+}
+
+.header-nav {
+    flex: 1;
+} */
+
+/* BANNER */
+
+.banner {
+    background-color: #A5C89E;
+    padding: 10px;
+    margin: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    padding: 10px;
+    background: #FFFBB1;
+  
+}
+
+
+
+/* ARTICULOS Y PUBLICIDAD */
+
+.black-background-middle {
+  background-color: black;
+    padding: 5px;
+    margin: 20px;  
+}
+
+
+
+.articles-and-publicity {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+/* ARTICULOS Y NAVEGACION */
+
+.articles {
+    background-color: #7895B2;
+    padding: 13px;
+    flex: 1;
+}
+
+
+.articles-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px
+}
+
+
+.article {
+    background-color: #EBF4F6;
+    padding: 20px;
+    flex: 1;
+}
+
+
+.navigation {
+    background-color: #AEBDCA;
+    padding: 13px;
+}
+
+/* PUBLICITY */
+.ads {
+    background-color: #7AB2B2;
+    padding: 13px;
+    width: 250px;
+    
+}
+
+.ad {
+    background-color: #088395;
+margin-bottom: 10px;    
+padding: 20px;
+}
+
+/* PIE */
+
+.footer {
+    background-color: #249E94;
+    padding: 20px;
+    margin: 20px;
+}
+
+.black-background-pie {
+    background-color: black;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+
+
+
+
+/* TABLET */
+@media (max-width: 768px) {
+    
+.menu-nav {
+    flex-direction: column;
+}
+
+.logo, .inicio, .rutas, .hoteles, .vuelos, .contacto, .facebook, .x  {
+    width: 100%;
+}
+
+.articles-and-publicity {
+    flex-direction: column;
+}
+
+.ads {
+    width: auto;
+}
+
+}
+
+/* PHONE */
+@media (max-width: 480px) {
+
+    .articles-row {
+        flex-direction: column;
+    }
+
+}
